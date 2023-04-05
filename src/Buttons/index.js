@@ -1,9 +1,10 @@
 import "./style.css";
 
-const Buttons = ({tasks, hideDoneTasks}) => {
+const Buttons = ({ tasks, hideDoneTasks} ) => {
     if(tasks.lenght === 0) {
         return null
     }
+
     return (
     <div className="buttons">
         <button className="buttons__button">
